@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 150px;
+}
+header .logo-text h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+header .hamburguesa-icono img, header .hamburguesa-icono img:hover{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+.main-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #936eff;
+}
+.content-column{
+    flex-basis: 33.333%;
+    flex-shrink: .5;
+    height: 100%;
+}
+.main-content .u20{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.u20 .u20-img{
+    height: 50%;
+    display: block;
+    background-image: url(../media/imagen1.PNG);
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+
+}
+.u20 .u20-texto{
+    padding: 90px 30px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f49bbd;
+    flex-grow: 1;
+    
+}
+.u20 .u20-texto .u20-iconos ul{
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    margin-top: 20px ;
+    margin-left: -10px;
+}
+.u20 .u20-texto .u20-iconos ul li{
+    list-style: none;
+}
+.u20 .u20-texto .u20-iconos ul li img{
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+}
+.u20 .u20-texto h2{
+  
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    color: #ffff;
+}
+.main-content .u40{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.u40 .u40-img{
+    height: 50%;
+    display: block;
+    background-image: url(../media/imagen2.PNG);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+.u40 .u40-texto{
+    background-color: #000;
+    max-height: 50%;
+    color: #FFFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.u40 .u40-texto h2{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    margin: 42px 0 0 30px;
+    font-weight: 300;
+}
+.u40 .u40-texto p{
+
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin: 0 0 0 30px;
+    font-weight: 500;
+}
+.u40 .u40-texto img{
+    margin: 42px;
+    width: 64px;
+    height: 64px;
+}
+.main-content .u30{
+    background-image: url(../media/imagen-buscar.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #5e51a9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .content-logo h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+footer .content-text{
+    width: 600px;
+    text-align: center;
+}
+footer .content-text p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #fff;
+}
+footer .content-iconos ul{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+}
+footer .content-iconos ul li{
+    list-style: none;
+}
+footer .content-iconos ul li img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
